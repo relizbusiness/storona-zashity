@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Юридическое бюро «На вашей стороне» — военное право, банкротство, гражданские споры</title>
+<meta name="description" content="Юридическое бюро «На вашей стороне»: военный юрист, банкротство физических лиц, гражданские споры. Честная оценка перспектив до договора. Цена фиксируется письменно. Краснодар, работаем по всей России.">
+<link rel="canonical" href="https://storona-zashity.ru/">
+<meta property="og:title" content="Юридическое бюро «На вашей стороне» — военное право, банкротство, гражданские споры">
+<meta property="og:description" content="Честная оценка перспектив до договора. Цена фиксируется письменно. Первая консультация бесплатная.">
+<meta property="og:url" content="https://storona-zashity.ru/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Яндекс Метрика: после создания счётчика на storona-zashity.ru вставить код сюда -->
+<!-- Уведомление в РКН об обработке ПД — подать до запуска рекламы -->
+
+<style>
+  :root{--ink:#121212;--paper:#FAFAF7;--grey:#6E6E68;--line:#E3E2DC;--brass:#A9874B;--brass-d:#8A6D3B;--card:#FFFFFF}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;font-size:16px}
+  h1,h2,h3,.u{font-family:'Unbounded',sans-serif;text-transform:uppercase;line-height:1.15}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%}
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.on{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+  /* header */
+  header{position:sticky;top:0;background:rgba(250,250,247,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:60}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px}
+  .logo{font-family:'Unbounded';font-weight:800;font-size:15px;text-transform:uppercase}
+  .logo span{display:block;font-size:8px;font-weight:500;letter-spacing:.42em;color:var(--grey)}
+  .nav-links{display:flex;gap:26px;font-size:14px;color:var(--grey)}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{display:flex;align-items:center;gap:16px}
+  .phone{font-weight:600;font-size:15px;white-space:nowrap}
+  .btn{display:inline-block;background:var(--ink);color:#fff;padding:15px 28px;font-weight:600;font-size:14px;border:none;cursor:pointer;transition:background .2s;text-align:center}
+  .btn:hover{background:var(--brass-d)}
+  .btn-line{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+  .btn-line:hover{background:var(--ink);color:#fff}
+  .burger{display:none;background:none;border:none;cursor:pointer;width:40px;height:40px;position:relative}
+  .burger i,.burger i::before,.burger i::after{content:"";position:absolute;left:8px;width:24px;height:2px;background:var(--ink);transition:.2s}
+  .burger i{top:19px}.burger i::before{top:-7px}.burger i::after{top:7px}
+  .mobile-menu{display:none;flex-direction:column;gap:0;background:var(--paper);border-bottom:1px solid var(--line);padding:8px 24px 20px}
+  .mobile-menu a{padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .mobile-menu .btn{margin-top:16px}
+  .mobile-menu.open{display:flex}
+
+  .side-mark{display:flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.35em;text-transform:uppercase;color:var(--brass);font-weight:600;margin-bottom:26px}
+  .side-mark::before{content:"";width:44px;height:3px;background:var(--ink)}
+
+  /* hero */
+  .hero{padding:92px 0 0;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:start}
+  .hero h1{font-size:clamp(29px,4.6vw,58px);font-weight:800}
+  .hero h1 em{font-style:normal;background:var(--ink);color:var(--paper);padding:0 .18em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+  .hero p{margin:28px 0 36px;max-width:52ch;color:var(--grey);font-size:18px}
+  .hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+  .hero-note{font-size:13px;color:var(--grey);margin-top:16px}
+  .hero-aside{border:1px solid var(--line);background:var(--card);padding:30px 28px}
+  .hero-aside .u{font-size:13px;font-weight:700;margin-bottom:18px}
+  .ha-row{display:flex;gap:14px;padding:13px 0;border-top:1px solid var(--line);font-size:14.5px;color:#3a3a36}
+  .ha-row::before{content:"—";color:var(--brass);font-weight:700;flex-shrink:0}
+  .hero-facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:72px;border-top:1px solid var(--line)}
+  .fact{padding:28px 26px 34px 0}
+  .fact+.fact{border-left:1px solid var(--line);padding-left:26px}
+  .fact b{font-family:'Unbounded';font-size:clamp(20px,2.6vw,30px);font-weight:800;display:block;text-transform:uppercase}
+  .fact small{font-size:13.5px;color:var(--grey);line-height:1.5;display:block;margin-top:8px}
+
+  section{padding:92px 0}
+  .sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:48px;flex-wrap:wrap}
+  h2{font-size:clamp(23px,3.3vw,38px);font-weight:800;max-width:24ch}
+  .sec-head p{color:var(--grey);max-width:40ch;font-size:15px}
+
+  /* scenarios */
+  .scen{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .scen-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .sc{border:1px solid var(--line);padding:28px 26px;display:flex;flex-direction:column;gap:14px;background:var(--paper);transition:border-color .2s}
+  .sc:hover{border-color:var(--ink)}
+  .sc .num{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass);font-weight:600}
+  .sc h3{font-family:'Inter';text-transform:none;font-size:16.5px;font-weight:600;line-height:1.45;flex:1}
+  .sc a{font-weight:600;font-size:14px;border-bottom:2px solid var(--brass);align-self:flex-start;padding-bottom:2px}
+  .sc a:hover{color:var(--brass-d)}
+  .sc.dark{background:var(--ink);color:var(--paper)}
+  .sc.dark h3{color:#fff}
+
+  /* practice */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);padding:34px 30px 30px;display:flex;flex-direction:column;transition:border-color .2s}
+  .card:hover{border-color:var(--ink)}
+  .card h3{font-size:16.5px;font-weight:700;margin-bottom:4px}
+  .card .tag{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--brass);font-weight:600;margin-bottom:16px}
+  .card ul{list-style:none;margin:14px 0 26px;flex:1}
+  .card li{padding:9px 0;border-bottom:1px solid var(--line);font-size:14.5px;color:#3a3a36;display:flex;gap:10px}
+  .card li::before{content:"—";color:var(--brass);flex-shrink:0}
+  .card .price{font-family:'Unbounded';font-weight:700;font-size:15px;margin-bottom:18px;text-transform:uppercase}
+  .card .price small{font-family:'Inter';font-weight:400;color:var(--grey);font-size:12px;display:block;margin-top:4px;text-transform:none}
+
+  /* process */
+  .process{background:var(--ink);color:var(--paper)}
+  .process .side-mark::before{background:var(--brass)}
+  .process h2{color:#fff}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:36px;margin-top:52px}
+  .step b{font-family:'Unbounded';font-size:12.5px;font-weight:700;text-transform:uppercase;display:block;margin:16px 0 10px;line-height:1.4}
+  .step p{font-size:14px;color:#B9B8B2}
+  .step .n{font-family:'Unbounded';color:var(--brass);font-size:13px;font-weight:700;border-bottom:2px solid var(--brass);padding-bottom:10px;display:block}
+  .process-note{margin-top:52px;padding:22px 26px;border:1px solid #33332F;font-size:14px;color:#B9B8B2;max-width:780px}
+  .process-note b{color:#fff}
+
+  /* team */
+  .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .tm{background:var(--card);border:1px solid var(--line)}
+  .tm .ph{aspect-ratio:4/4.4;background:linear-gradient(160deg,#EDECE6,#DDDCD4);display:flex;align-items:center;justify-content:center;color:var(--grey);font-size:13px}
+  .tm .info{padding:20px 22px 24px}
+  .tm .info b{font-family:'Unbounded';font-size:13px;text-transform:uppercase;display:block}
+  .tm .info span{font-size:13.5px;color:var(--grey);display:block;margin-top:6px}
+  .tm .chip{display:inline-block;margin-top:12px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600;border:1px solid var(--line);padding:5px 10px}
+
+  /* principles */
+  .principles .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .pr{border-top:3px solid var(--ink);padding:22px 8px 8px 0}
+  .pr h3{font-size:14.5px;font-weight:700;margin-bottom:10px}
+  .pr p{font-size:14.5px;color:var(--grey)}
+
+  /* faq */
+  .faq{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  details{border-bottom:1px solid var(--line)}
+  summary{cursor:pointer;padding:22px 0;font-weight:600;font-size:16px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-family:'Unbounded';color:var(--brass);font-weight:700}
+  details[open] summary::after{content:"–"}
+  details p{padding:0 0 22px;color:var(--grey);font-size:15px;max-width:72ch}
+
+  /* form */
+  .cta-sec .inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+  .form{background:var(--card);border:1px solid var(--line);padding:36px}
+  .form label{font-size:13px;font-weight:600;display:block;margin:0 0 6px}
+  .form input,.form select{width:100%;padding:14px;border:1px solid var(--line);background:var(--paper);font-family:'Inter';font-size:15px;margin-bottom:18px}
+  .form input:focus,.form select:focus{outline:2px solid var(--ink)}
+  .consent{display:flex;gap:10px;font-size:12.5px;color:var(--grey);margin:4px 0 20px;align-items:flex-start}
+  .consent input{width:auto;margin:3px 0 0}
+  .consent a{text-decoration:underline}
+  .form .btn{width:100%;padding:16px}
+  .cta-copy p{color:var(--grey);margin:24px 0;font-size:16px;max-width:44ch}
+  .contact-line{font-family:'Unbounded';font-weight:700;font-size:22px;margin-top:8px}
+  .cta-copy small{color:var(--grey);font-size:13px;display:block;margin-top:18px;max-width:44ch}
+
+  /* footer */
+  footer{padding:56px 0 96px;font-size:13px;color:var(--grey)}
+  .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px;margin-bottom:36px}
+  footer .logo{color:var(--ink);margin-bottom:14px}
+  footer h4{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink);margin-bottom:14px}
+  footer li{list-style:none;margin:8px 0}
+  footer a:hover{color:var(--ink)}
+  .disclaimer{border-top:1px solid var(--line);padding-top:24px;font-size:12px;line-height:1.7;max-width:900px}
+
+  /* cookie + sticky */
+  .cookie{position:fixed;left:16px;right:16px;bottom:16px;max-width:520px;margin:0 auto;background:var(--ink);color:var(--paper);padding:18px 20px;font-size:13px;display:none;gap:16px;align-items:center;z-index:80;justify-content:space-between}
+  .cookie.show{display:flex}
+  .cookie button{background:var(--brass);border:none;color:#fff;font-weight:600;padding:10px 18px;cursor:pointer;font-family:'Inter'}
+  .sticky-cta{display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--paper);border-top:1px solid var(--line);padding:10px 16px}
+  .sticky-cta .btn{width:100%}
+
+  /* Перекраска встроенной формы amoCRM под стиль сайта */
+  #amo-form-slot .amoforms_iframe{width:100%!important}
+  #amo-form-slot input[type=text],#amo-form-slot input[type=tel],#amo-form-slot input[type=email],#amo-form-slot select{width:100%;padding:14px;border:1px solid var(--line)!important;background:var(--paper)!important;font-family:'Inter'!important;font-size:15px;border-radius:0!important}
+  #amo-form-slot button[type=submit],#amo-form-slot .amoforms__submit-button{background:var(--ink)!important;color:#fff!important;border:none!important;border-radius:0!important;font-family:'Inter'!important;font-weight:600;padding:16px!important;width:100%;cursor:pointer}
+  #amo-form-slot button[type=submit]:hover{background:var(--brass-d)!important}
+
+  @media(max-width:960px){
+    .nav-links,.nav .btn{display:none}
+    .burger{display:block}
+    .hero-grid{grid-template-columns:1fr}
+    .hero-aside{order:2}
+    .cards,.scen-grid,.steps,.cta-sec .inner,.principles .grid,.foot-grid,.team-grid{grid-template-columns:1fr}
+    .hero-facts{grid-template-columns:1fr}
+    .fact{padding:22px 0 6px}
+    .fact+.fact{border-left:none;border-top:1px solid var(--line);padding-left:0;padding-top:22px}
+    section{padding:64px 0}
+    .hero{padding:56px 0 0}
+    .sticky-cta{display:block}
+    footer{padding-bottom:120px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo">На вашей стороне<span>юридическое бюро</span></a>
+    <nav class="nav-links">
+      <a href="#scen">Ситуации</a>
+      <a href="#practice">Направления</a>
+      <a href="#process">Как мы работаем</a>
+      <a href="#team">Команда</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="phone" href="tel:+79670092288">+7 967 009-22-88</a>
+      <a class="btn" href="#contact">Консультация</a>
+      <button class="burger" aria-label="Меню" onclick="document.getElementById('mm').classList.toggle('open')"><i></i></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mm">
+    <a href="#scen" onclick="mm.classList.remove('open')">Ситуации</a>
+    <a href="#practice" onclick="mm.classList.remove('open')">Направления</a>
+    <a href="#process" onclick="mm.classList.remove('open')">Как мы работаем</a>
+    <a href="#team" onclick="mm.classList.remove('open')">Команда</a>
+    <a href="#faq" onclick="mm.classList.remove('open')">Вопросы</a>
+    <a class="btn" href="#contact" onclick="mm.classList.remove('open')">Получить консультацию</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="side-mark">Юридическое бюро · Краснодар · онлайн по всей России</div>
+        <h1>Когда против вас банк, ведомство или обстоятельства — <em>мы на вашей стороне</em></h1>
+        <p>Военное право, банкротство граждан и гражданские споры. Сначала честно оцениваем перспективы дела — потом называем цену и фиксируем её в договоре.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Получить консультацию</a>
+          <a class="btn btn-line" href="tel:+79670092288">Позвонить: +7 967 009-22-88</a>
+        </div>
+        <div class="hero-note">Первая консультация бесплатная. Если браться за дело не стоит — скажем прямо.</div>
+      </div>
+      <aside class="hero-aside reveal">
+        <div class="u">Что вы получаете на первой консультации</div>
+        <div class="ha-row">Разбор вашей ситуации по документам</div>
+        <div class="ha-row">Честную оценку перспектив и рисков</div>
+        <div class="ha-row">Варианты действий — включая «ничего не делать»</div>
+        <div class="ha-row">Точную цену, если решите работать с нами</div>
+      </aside>
+    </div>
+    <div class="hero-facts">
+      <div class="fact reveal"><b>3 практики</b><small>Военное право, банкротство физлиц, гражданские споры — и ничего лишнего</small></div>
+      <div class="fact reveal"><b>Цена в договоре</b><small>Стоимость фиксируется письменно до начала работы и не меняется по ходу дела</small></div>
+      <div class="fact reveal"><b>Оплата этапами</b><small>Каждый этап закрывается актом — вы платите за выполненную работу</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="scen" id="scen">
+  <div class="wrap">
+    <div class="side-mark">Ситуации</div>
+    <div class="sec-head">
+      <h2>Что у вас происходит?</h2>
+      <p>Выберите ситуацию — на консультации объясним, какая процедура применима и что делать первым шагом.</p>
+    </div>
+    <div class="scen-grid">
+      <div class="sc reveal"><span class="num">Ситуация 01</span><h3>Не согласен с заключением ВВК или хочу уволиться по состоянию здоровья</h3><a href="#contact">Разобрать ситуацию</a></div>
+      <div class="sc reveal"><span class="num">Ситуация 02</span><h3>Не выплачивают положенные выплаты или страховые суммы</h3><a href="#contact">Разобрать ситуацию</a></div>
+      <div class="sc reveal"><span class="num">Ситуация 03</span><h3>Долги растут, платить нечем — думаю про банкротство</h3><a href="#contact">Проверить, подходит ли банкротство</a></div>
+      <div class="sc reveal"><span class="num">Ситуация 04</span><h3>Звонят коллекторы, приходят приставы — не знаю, что законно</h3><a href="#contact">Узнать свои права</a></div>
+      <div class="sc reveal"><span class="num">Ситуация 05</span><h3>Развод, раздел имущества, алименты или наследственный спор</h3><a href="#contact">Обсудить с юристом</a></div>
+      <div class="sc dark reveal"><span class="num">Ситуация 06</span><h3>Моей ситуации нет в списке — нужен разбор</h3><a href="#contact" style="color:#fff;border-color:var(--brass)">Описать свою ситуацию</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="practice">
+  <div class="wrap">
+    <div class="side-mark">Направления</div>
+    <div class="sec-head">
+      <h2>Три практики. Каждой занимается профильный юрист</h2>
+      <p>Мы не берёмся «за всё подряд» — только за то, в чём есть подтверждённая практика.</p>
+    </div>
+    <div class="cards">
+      <div class="card reveal">
+        <div class="tag">Практика 01</div>
+        <h3>Военный юрист</h3>
+        <ul>
+          <li>Увольнение по состоянию здоровья, обжалование заключений ВВК</li>
+          <li>Взыскание положенных выплат и страховых сумм</li>
+          <li>Споры по контракту и денежному довольствию</li>
+          <li>Защита прав семей военнослужащих</li>
+        </ul>
+        <div class="price">от 50 000 ₽<small>точная стоимость — после изучения документов</small></div>
+        <a class="btn btn-line" href="#contact">Разобрать мою ситуацию</a>
+      </div>
+      <div class="card reveal">
+        <div class="tag">Практика 02</div>
+        <h3>Юрист по банкротству</h3>
+        <ul>
+          <li>Оценка: подходит ли вам процедура банкротства</li>
+          <li>Судебное и внесудебное банкротство граждан</li>
+          <li>Защита имущества в рамках закона</li>
+          <li>Сопровождение до завершения процедуры</li>
+        </ul>
+        <div class="price">от 8 000 ₽/мес<small>рассрочка на время процедуры, без скрытых платежей</small></div>
+        <a class="btn btn-line" href="#contact">Проверить свою ситуацию</a>
+      </div>
+      <div class="card reveal">
+        <div class="tag">Практика 03</div>
+        <h3>Гражданский юрист</h3>
+        <ul>
+          <li>Семейные споры: развод, раздел имущества, алименты</li>
+          <li>Наследственные дела</li>
+          <li>Споры с застройщиками и защита прав потребителей</li>
+          <li>Взыскание долгов и убытков</li>
+        </ul>
+        <div class="price">от 30 000 ₽<small>консультация и оценка перспектив — бесплатно</small></div>
+        <a class="btn btn-line" href="#contact">Задать вопрос юристу</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="side-mark">Порядок работы</div>
+    <h2>От заявки до результата — четыре понятных шага</h2>
+    <div class="steps">
+      <div class="step reveal"><span class="n">Шаг 1</span><b>Заявка и разбор ситуации</b><p>Вы оставляете заявку, мы задаём уточняющие вопросы и запрашиваем документы. Это бесплатно.</p></div>
+      <div class="step reveal"><span class="n">Шаг 2</span><b>Консультация юриста</b><p>Профильный юрист оценивает перспективы: какие есть варианты, риски и реальные шансы.</p></div>
+      <div class="step reveal"><span class="n">Шаг 3</span><b>Договор с фиксированной ценой</b><p>Прописываем объём работ, этапы и стоимость. Цена не меняется по ходу дела.</p></div>
+      <div class="step reveal"><span class="n">Шаг 4</span><b>Работа по этапам</b><p>Каждый этап закрывается актом. Вы всегда знаете, что сделано и что дальше.</p></div>
+    </div>
+    <div class="process-note"><b>Важно понимать:</b> ни один добросовестный юрист не может гарантировать решение суда. Мы гарантируем качество работы: соблюдение сроков, полноту документов и честную оценку перспектив до заключения договора.</div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <div class="side-mark">Команда</div>
+    <div class="sec-head">
+      <h2>Юристы, которые будут вести ваше дело</h2>
+      <p>За каждой практикой закреплён профильный специалист — вы знаете его по имени с первой консультации.</p>
+    </div>
+    <div class="team-grid">
+      <div class="tm reveal"><div class="ph">[Фото юриста]</div><div class="info"><b>Имя Фамилия</b><span>Военное право · опыт N лет</span><span class="chip">Практика 01</span></div></div>
+      <div class="tm reveal"><div class="ph">[Фото юриста]</div><div class="info"><b>Имя Фамилия</b><span>Банкротство граждан · опыт N лет</span><span class="chip">Практика 02</span></div></div>
+      <div class="tm reveal"><div class="ph">[Фото юриста]</div><div class="info"><b>Имя Фамилия</b><span>Гражданские споры · опыт N лет</span><span class="chip">Практика 03</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="principles">
+  <div class="wrap">
+    <div class="side-mark">Принципы</div>
+    <div class="sec-head"><h2>Почему нам доверяют дела</h2></div>
+    <div class="grid">
+      <div class="pr reveal"><h3>Говорим о шансах честно</h3><p>Если перспектив нет — скажем на первой консультации и не возьмём дело. Репутация дороже одного гонорара.</p></div>
+      <div class="pr reveal"><h3>Понятный договор</h3><p>Предмет, этапы, сроки и цена — всё зафиксировано письменно. Никаких «доплат по обстоятельствам».</p></div>
+      <div class="pr reveal"><h3>Держим в курсе</h3><p>Персональный менеджер сообщает о каждом движении по делу — вам не нужно «выбивать» информацию.</p></div>
+      <div class="pr reveal"><h3>Конфиденциальность</h3><p>Работаем с чувствительными ситуациями. Данные клиентов защищены договором и законом.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="side-mark">Вопросы</div>
+    <div class="sec-head"><h2>Что спрашивают чаще всего</h2></div>
+    <details open>
+      <summary>Сколько стоит консультация?</summary>
+      <p>Первичная консультация бесплатная: юрист изучает ситуацию, оценивает перспективы и предлагает план действий. Платите вы только если решаете работать с нами дальше — по договору с фиксированной ценой.</p>
+    </details>
+    <details>
+      <summary>Вы гарантируете результат?</summary>
+      <p>Нет — и вам стоит насторожиться, если кто-то гарантирует. Решение принимает суд или ведомство. Мы гарантируем качество работы и честную оценку шансов до того, как вы заплатите.</p>
+    </details>
+    <details>
+      <summary>Можно ли работать с вами из другого города?</summary>
+      <p>Да. Консультации проходят онлайн, документы подаём в электронном виде, в суде участвуем по ВКС или привлекаем представителя в вашем регионе.</p>
+    </details>
+    <details>
+      <summary>Как проходит оплата?</summary>
+      <p>По этапам: вы оплачиваете каждый выполненный этап после подписания акта. По банкротству возможна помесячная рассрочка на время процедуры. Оплата — официально, на расчётный счёт по договору.</p>
+    </details>
+    <details>
+      <summary>Спишутся ли все мои долги при банкротстве?</summary>
+      <p>Не все и не всегда: алименты, возмещение вреда и некоторые другие обязательства не списываются, а в ряде ситуаций суд может отказать в освобождении от долгов. Именно поэтому мы начинаем с проверки, подходит ли процедура вам — до договора и до оплаты.</p>
+    </details>
+  </div>
+</section>
+
+<section class="cta-sec" id="contact">
+  <div class="wrap inner">
+    <div class="cta-copy">
+      <div class="side-mark">Консультация</div>
+      <h2>Расскажите, что случилось</h2>
+      <p>Опишите ситуацию в двух словах — юрист профильной практики свяжется с вами в течение рабочего дня, задаст вопросы и честно скажет, чем можно помочь.</p>
+      <a class="contact-line" href="tel:+79670092288">+7 967 009-22-88</a>
+      <small>Ежедневно с 9:00 до 21:00 · WhatsApp и Telegram по этому номеру · founder.liga@gmail.com</small>
+    </div>
+    <div class="form" id="amo-form-slot">
+      <!-- ============================================================
+           СЮДА ВСТАВИТЬ КОД ФОРМЫ amoCRM
+           amoCRM → Настройки → Формы (CRM Plugin) → Создать форму
+           Поля: Имя, Телефон (обязательное), Направление (список:
+           Военное право / Банкротство / Гражданский спор / Пока не знаю)
+           Включить чекбокс согласия, ссылки: /soglasie.html и /privacy.html
+           Скопировать <script>-код вставки и заменить этот комментарий.
+           Стили ниже (в конце <style>) перекрасят форму в стиль сайта.
+           ============================================================ -->
+      <p style="margin-bottom:14px"><b>Форма подключается к amoCRM.</b> Пока она не установлена — звоните или пишите напрямую:</p>
+      <a class="btn" style="margin-bottom:10px" href="tel:+79670092288">Позвонить: +7 967 009-22-88</a>
+      <a class="btn btn-line" href="https://wa.me/79670092288">Написать в WhatsApp</a>
+      <div class="consent" style="margin-top:16px">
+        <span>Связываясь с нами, вы соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo">На вашей стороне<span>юридическое бюро</span></div>
+        <p>ИП Гаркушев Александр Валерьевич<br>
+        ИНН 231134218196 · ОГРНИП 316237500040606<br>
+        Россия, Краснодарский край, г. Краснодар,<br>ул. Александра Покрышкина, 2/1<br><br>
+        <a href="tel:+79670092288">+7 967 009-22-88</a><br>
+        <a href="mailto:founder.liga@gmail.com">founder.liga@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="#scen">Ситуации</a></li>
+          <li><a href="#practice">Направления</a></li>
+          <li><a href="#process">Как мы работаем</a></li>
+          <li><a href="#faq">Вопросы</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="privacy.html">Политика конфиденциальности</a></li>
+          <li><a href="soglasie.html">Согласие на обработку данных</a></li>
+          <li><a href="oferta.html">Договор-оферта</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="disclaimer">
+      Информация на сайте носит справочный характер и не является публичной офертой в части описания и стоимости услуг (ст. 437 ГК РФ); итоговая стоимость определяется договором после изучения документов. Бюро не гарантирует принятие судом или иным органом конкретного решения; результаты ранее завершённых дел не определяют исход будущих. Юридические услуги оказываются на основании договора. Оставляя заявку, вы даёте согласие на обработку персональных данных (152-ФЗ). © ИП Гаркушев А. В., 2026
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-cta"><a class="btn" href="#contact">Бесплатная консультация</a></div>
+
+<div class="cookie" id="ck">
+  <span>Мы используем cookies и метрику для работы сайта. Продолжая, вы соглашаетесь с <a href="privacy.html" style="text-decoration:underline">политикой конфиденциальности</a>.</span>
+  <button onclick="document.getElementById('ck').classList.remove('show')">Хорошо</button>
+</div>
+
+<script>
+  // cookie banner (в Тильде включается в настройках, здесь — для демо)
+  setTimeout(function(){document.getElementById('ck').classList.add('show')},1200);
+  // scroll reveal
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  var mm=document.getElementById('mm');
+</script>
+</body>
+</html>
